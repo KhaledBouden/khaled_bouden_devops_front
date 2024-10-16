@@ -1,0 +1,17 @@
+<h2>Bloc List</h2>
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nom Bloc</th>
+      <th>Capacité Bloc</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let bloc of blocs">
+      <td>{{ bloc.idBloc }}</td>
+      <td>{{ bloc.nomBloc }}</td>
+      <td>{{ bloc.capaciteBloc }}</td>
+    </tr>
+  </tbody>
+</table>
