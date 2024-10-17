@@ -1,0 +1,8 @@
+{
+    "/tpfoyer/*": {
+      "target": "http://192.168.100.10:8089",
+      "secure": false,
+      "changeOrigin": true
+    }
+  }
+  
